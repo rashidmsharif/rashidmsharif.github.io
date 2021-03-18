@@ -193,7 +193,7 @@ margin-top: 0px;
 
 
  <a href="#" style="width: 1px; margin-right: 0px; padding: 0px;">&nbsp;</a>
-  <a href="home" class="<?php if (basename($_SERVER['PHP_SELF']) == "index.php" || basename($_SERVER['PHP_SELF']) == "home.php") {echo "active";} ?>">HOME</a>
+  <a href="home.php" class="<?php if (basename($_SERVER['PHP_SELF']) == "index.php" || basename($_SERVER['PHP_SELF']) == "home.php") {echo "active";} ?>">HOME</a>
    <div class="ccdropdown">
     <button class="ccdropbtn <?php if (basename($_SERVER['PHP_SELF']) == "about.php" || basename($_SERVER['PHP_SELF']) == "aboutvalues.php" || 
 	basename($_SERVER['PHP_SELF']) == "certs.php" || basename($_SERVER['PHP_SELF']) == "contact.php") {echo "active";} ?>">COMPANY
