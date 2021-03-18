@@ -1,0 +1,285 @@
+/* Services
+================================================== */
+
+/* Service box */
+
+img.pull-left {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.ts-service-box .ts-service-icon i {
+    font-size: 36px;
+    float: left;
+    color: #0084D9;
+}
+
+.ts-service-box .ts-service-box-content {
+    margin-left: 62px;
+    margin-bottom: 30px;
+}
+
+.tab-content .ts-service-box .ts-service-box-content {
+    margin-left: 90px;
+}
+
+.ts-service-box .ts-service-box-content h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+.ts-service-box .ts-service-box-info {
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+.service-box-title {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.service-box-title a {
+    color: #333;
+}
+
+.service-box-title a:hover {
+    color: #0084D9;
+}
+
+.service-center-img {
+    padding: 0;
+    margin-bottom: -120px;
+	width: 60%;
+}
+
+/* Service box bg */
+
+.ts-service-box-bg{
+    background: #252525;
+    color: #fff;
+    padding: 30px;
+}
+
+.ts-service-box-bg h4,
+.ts-service-box-bg h3{
+    color: #fff;
+}
+
+
+/* Service box 
+
+.ts-service-box .ts-service-icon i {
+    font-size: 24px;
+    float: left;
+    color: #fff;
+    background: #0084D9;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.ts-service-box .ts-service-box-content {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.tab-content .ts-service-box .ts-service-box-content {
+    margin-left: 90px;
+}
+
+.ts-service-box .ts-service-box-content h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.ts-service-box .ts-service-box-info {
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+.service-box-title {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.service-box-title a {
+    color: #333;
+}
+
+.service-box-title a:hover {
+    color: #0084D9;
+}
+
+.service-center-img {
+    padding: 0 20px;
+}
+*/
+
+/* Icon squre */
+
+.ts-service-icon.icon-round i {
+    font-size: 24px;
+    color: #fff;
+    background: #0084D9;
+    text-align: center;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    float: none;
+}
+
+
+/* Icon left */
+
+.ts-service-box.icon-left .ts-service-box-icon {
+    float: left;
+}
+
+.ts-service-box.icon-left .ts-service-box-icon i {
+    background: #0084D9;
+    color: #fff;
+}
+
+.ts-service-box.icon-left .ts-service-box-info {
+    margin-left: 90px;
+}
+
+.ts-service-box.icon-left .ts-service-box-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+
+/* Service no box */
+
+.service-no {
+    font-size: 48px;
+    color: #dbdbdb;
+    float: left;
+    margin-top: 10px;
+}
+
+.ts-service-box-content .ts-service-box-info {
+    margin-left: 90px;
+}
+
+
+/* Service Image */
+
+.ts-service-image-wrapper {
+    margin-bottom: 30px;
+}
+
+.ts-service-icon i {
+    float: left;
+    font-size: 28px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+.ts-service-info {
+    margin-left: 85px;
+}
+
+.ts-service-info h3 {
+    font-size: 16px;
+}
+
+
+/* Service Classic */
+
+.ts-service-classic .ts-service-icon i {
+    font-size: 24px;
+    float: left;
+    color: #fff;
+    background: #0084D9;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.ts-service-classic .ts-service-box-info {
+    margin-left: 80px;
+}
+
+.ts-service-classic:hover .ts-service-icon i {
+    background: #0084D9;
+}
+
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+
+/* Service */
+
+	.service-center-img{
+		padding: 35px 125px 45px;
+		margin-bottom: 0;
+		width: 60%;
+
+	}
+
+	.ts-service-box{
+		margin-bottom: 30px;
+	}
+
+	.mrb-80 {
+    	margin-bottom: 0;
+	}
+	
+	
+	}
+	
+	
+	/* Small Devices Potrait */
+@media (max-width : 767px){
+
+	/* Services */
+
+  	.ts-service-box .ts-service-box-content h3 {
+   	font-size: 16px;
+	}
+
+	.service-center-img{
+		margin-bottom: 30px;
+		width: 40%;
+	}
+
+	.mrb-80 {
+   	margin-bottom: 0;
+	}
+	
+	
+	}
+	
+	
+	/* Extra Small Devices, Phones */ 
+@media (max-width : 479px) {
+	
+	
+}
+
+	
+.ts-service-box-info h3, .ts-service-box-info p {
+		font-size: 95%; 
+}
+
